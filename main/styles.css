@@ -2,13 +2,13 @@
   margin: 0;
   padding: 0;
   list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
   background-color: #541554;
   color: white;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
 }
 header nav {
   padding-top: 20px;
@@ -88,4 +88,23 @@ header div.header__buttons .header__buttons__google::before {
 }
 header .header__video {
   width: 100%;
+}
+
+.main01 {
+  background-color: #f4ede4;
+  padding-top: 40px;
+}
+.main01 .main01__empresas {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+.main01 .main01__empresas .main01__empresas__logos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: none;
+  gap: 10px;
+  padding-top: 30px;
 }/*# sourceMappingURL=styles.css.map */
