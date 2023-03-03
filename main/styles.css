@@ -62,13 +62,14 @@ header h4 {
 header div.header__buttons {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: none;
   align-items: center;
   gap: 10px;
   /*display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: none;
   align-items: center;
   gap: 5px;*/
 }
@@ -76,6 +77,8 @@ header div.header__buttons .header__buttons__correo {
   width: 100%;
   height: 50px;
   font-weight: bold;
+  color: none;
+  background-color: white;
 }
 header div.header__buttons .header__buttons__google {
   width: 100%;
@@ -124,4 +127,48 @@ header .header__video {
   justify-content: end;
   align-items: none;
   gap: 0px;
+}
+
+.main02 {
+  background-color: white;
+  padding-top: 40px;
+}
+.main02 .main02__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: none;
+  align-items: center;
+  gap: 10px;
+}
+.main02 .main02__buttons .main02__buttons__conoce {
+  width: 100%;
+  height: 50px;
+  font-weight: bold;
+  color: white;
+  background-color: #541554;
+}
+.main02 .main02__buttons .main02__buttons__hablar {
+  width: 100%;
+  height: 50px;
+  font-weight: bold;
+  color: #541554;
+  background-color: white;
+}
+.main02 .main02__numeros {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: none;
+  gap: 30px;
+}
+.main02 .main02__numeros .main02__numero {
+  font-size: 40px;
+  font-weight: bold;
+  color: #541554;
+}
+.main02 .main02__numeros .main02__texto {
+  font-size: 12px;
 }/*# sourceMappingURL=styles.css.map */

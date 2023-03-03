@@ -6,3 +6,11 @@
     align-items: $align;
     gap: $gap;
 }
+
+@mixin buttonBig($font, $back) {
+    width: 100%;
+    height: 50px;
+    font-weight: bold;
+    color: $font;
+    background-color: $back;
+}

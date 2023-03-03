@@ -1,0 +1,30 @@
+.main02 {
+    background-color: white;
+    padding-top: 40px;
+
+    .main02__buttons {
+        @include flexWrap(row, none, center, 10px);
+
+        .main02__buttons__conoce {
+            @include buttonBig (white, #541554)
+        }
+
+        .main02__buttons__hablar {
+            @include buttonBig (#541554, white)
+        }
+    }
+    .main02__numeros {
+        width: 50%;
+        @include flexWrap(row, center, none, 30px);
+
+        .main02__numero {
+            font-size: 40px;
+            font-weight: bold;
+            color: #541554;
+        }
+
+        .main02__texto {
+            font-size: 12px;
+        }
+    }
+}
