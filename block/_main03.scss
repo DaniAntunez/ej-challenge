@@ -1,0 +1,20 @@
+.main03 {
+    background-color: red; // #f4ede4;
+    padding-top: 40px;
+
+    .main03__tarjeta {
+        @include flexWrap(row, center, center, center, 10px);
+
+        .main03__tarjeta__img {
+            width: 10%;
+        }
+    }
+
+    .main03__botones {
+        //display: block;
+        background-color: red;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;       
+    }
+}

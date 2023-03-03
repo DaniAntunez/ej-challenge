@@ -1,9 +1,10 @@
-@mixin flexWrap($direction, $justify, $align, $gap) {
+@mixin flexWrap($direction, $alignContent, $justifyContent, $alignItems, $gap) {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: $direction;
-    justify-content: $justify;
-    align-items: $align;
+    flex-direction: $direction; //row, column
+    align-content: $alignContent; //center, fex-start, flex-end, space-around, space-between, strech
+    justify-content: $justifyContent; //center, flex-start, flex-end, space-between, space-around, space-evenly
+    align-items: $alignItems; //center, flex-strat, flex-end, strech, baselie
     gap: $gap;
 }
 

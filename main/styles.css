@@ -10,6 +10,10 @@ a {
   color: blue;
 }
 
+.mb10 {
+  margin-bottom: 10px;
+}
+
 .mb30 {
   margin-bottom: 30px;
 }
@@ -19,6 +23,28 @@ a {
   padding-right: 20px;
 }
 
+.pt40 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.pt60 {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.fb {
+  font-weight: bold;
+}
+
+.fi {
+  font-style: italic;
+}
+
+.tc {
+  text-align: center;
+}
+
 header {
   background-color: #541554;
   color: white;
@@ -26,8 +52,6 @@ header {
 }
 header nav {
   padding-top: 20px;
-  padding-left: 40px;
-  padding-right: 40px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -171,4 +195,28 @@ header .header__video {
 }
 .main02 .main02__numeros .main02__texto {
   font-size: 12px;
+}
+.main02 .main02__video {
+  width: 95%;
+  border-top-right-radius: 500px;
+  border-bottom-right-radius: 500px;
+}
+.main02 .main02__texto__comentario {
+  font-size: 25px;
+}
+.main02 .main02__texto__promedio {
+  font-size: 10px;
+}
+
+.main03 {
+  background-color: #f4ede4;
+  padding-top: 40px;
+}
+.main03 .main03__tarjeta {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: none;
+  align-items: center;
+  gap: 10px;
 }/*# sourceMappingURL=styles.css.map */
