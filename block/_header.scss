@@ -7,7 +7,6 @@ header {
         padding-top: 20px;
         padding-left: 40px;
         padding-right: 40px;
-        margin-bottom: 30px;
         @include flexWrap(row, space-between, center, 10px);
         /*display: flex;
         flex-wrap: wrap;
@@ -16,11 +15,11 @@ header {
         align-items: center;
         gap: 0;*/
 
-        .&logo {
+        .nav__logo {
             height: 50px;
         }
     
-        .&menu__icon {
+        .nav__menu__icon {
             height: 30px;
         }
     }
@@ -28,8 +27,6 @@ header {
     h1 {
         font-size: 38px;
         font-weight: bold;
-        padding-left: 20px;
-        padding-right: 20px;
         margin-bottom: 10px;
 
         span {
@@ -40,28 +37,23 @@ header {
     h4 {
         font-weight: lighter;
         margin-bottom: 50px;
-        padding-left: 20px;
-        padding-right: 20px;
     }
 
     div.header__buttons {
         @include flexWrap(column, none, center, 10px);
-        margin-bottom: 30px;
-        padding-left: 20px;
-        padding-right: 20px;
         /*display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
         gap: 5px;*/
 
-        .&correo {
+        .header__buttons__correo {
             width: 100%;
             height: 50px;
             font-weight: bold;
         }
 
-        .&google {
+        .header__buttons__google {
             width: 100%;
             height: 50px;
             font-weight: bold;
@@ -70,7 +62,7 @@ header {
 
             &::before {
                 content:" ";
-                background-image: url(../assets/logoGoogle.png);
+                background-image: url(../assets/google.png);
                 width: 40px;
                 height: 40px;
                 display: inline-block;

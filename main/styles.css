@@ -5,6 +5,20 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+.mb30 {
+  margin-bottom: 30px;
+}
+
+.pt20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 header {
   background-color: #541554;
   color: white;
@@ -14,7 +28,6 @@ header nav {
   padding-top: 20px;
   padding-left: 40px;
   padding-right: 40px;
-  margin-bottom: 30px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -37,8 +50,6 @@ header nav .nav__menu__icon {
 header h1 {
   font-size: 38px;
   font-weight: bold;
-  padding-left: 20px;
-  padding-right: 20px;
   margin-bottom: 10px;
 }
 header h1 span {
@@ -47,8 +58,6 @@ header h1 span {
 header h4 {
   font-weight: lighter;
   margin-bottom: 50px;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 header div.header__buttons {
   display: flex;
@@ -57,9 +66,6 @@ header div.header__buttons {
   justify-content: none;
   align-items: center;
   gap: 10px;
-  margin-bottom: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
   /*display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -80,7 +86,7 @@ header div.header__buttons .header__buttons__google {
 }
 header div.header__buttons .header__buttons__google::before {
   content: " ";
-  background-image: url(../assets/logoGoogle.png);
+  background-image: url(../assets/google.png);
   width: 40px;
   height: 40px;
   display: inline-block;
@@ -95,8 +101,8 @@ header .header__video {
   padding-top: 40px;
 }
 .main01 .main01__empresas {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
   text-align: center;
 }
 .main01 .main01__empresas .main01__empresas__logos {
@@ -105,6 +111,17 @@ header .header__video {
   flex-direction: row;
   justify-content: center;
   align-items: none;
-  gap: 10px;
+  gap: 30px;
   padding-top: 30px;
+}
+.main01 .main01__empresas .main01__empresas__logos img {
+  max-height: 30px;
+}
+.main01 .img_derecha {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: end;
+  align-items: none;
+  gap: 0px;
 }/*# sourceMappingURL=styles.css.map */
