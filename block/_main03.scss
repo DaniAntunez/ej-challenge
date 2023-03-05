@@ -1,12 +1,13 @@
 .main03 {
-    background-color: red; // #f4ede4;
+    background-color: #f4ede4;
     padding-top: 40px;
 
     .main03__tarjeta {
+        background-color: white;
         @include flexWrap(row, center, center, center, 10px);
 
         .main03__tarjeta__img {
-            width: 10%;
+            width: 90%;
         }
     }
 

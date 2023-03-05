@@ -38,13 +38,7 @@ header {
     }
 
     div.header__buttons {
-        @include flexWrap(row, none, center, 10px);
-        /*display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: none;
-        align-items: center;
-        gap: 5px;*/
+        @include flexWrap(row, center, none, center, 10px);
 
         .header__buttons__correo {
             @include buttonBig(none, white);
