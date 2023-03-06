@@ -4,15 +4,18 @@
 
     .main03__tarjeta {
         background-color: white;
-        @include flexWrap(row, center, center, center, 10px);
+        margin-left: 50px;
+        margin-right: 50px;
+        @include flexWrap(row, flex-start, center, center, 10px);
 
         .main03__tarjeta__img {
             width: 90%;
+            padding-top: 10px;
         }
     }
 
     .main03__botones {
-        //display: block;
+        display: block;
         background-color: red;
         width: 100px;
         height: 100px;
