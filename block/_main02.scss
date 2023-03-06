@@ -3,7 +3,7 @@
     padding-top: 40px;
 
     .main02__buttons {
-        @include flexWrap(row, none, center, 10px);
+        @include flexWrap(row, none, none, center, 10px);
 
         .main02__buttons__conoce {
             @include buttonBig (white, #541554)
@@ -15,7 +15,7 @@
     }
     .main02__numeros {
         width: 50%;
-        @include flexWrap(row, center, none, 30px);
+        @include flexWrap(row, none, center, none, 30px);
 
         .main02__numero {
             font-size: 40px;

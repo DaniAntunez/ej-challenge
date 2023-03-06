@@ -8,7 +8,7 @@
         text-align: center;
 
         .main01__empresas__logos {
-            @include flexWrap(row, center, none, 30px);
+            @include flexWrap(row, none, center, none, 30px);
             padding-top: 30px;
 
             img {
@@ -18,6 +18,6 @@
     }
     
     .img_derecha {
-        @include flexWrap(row, end, none, 0px)
+        @include flexWrap(row, none, end, none, 0px)
     }
 }
