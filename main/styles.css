@@ -18,6 +18,11 @@ a {
   margin-bottom: 30px;
 }
 
+.pt10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .pt20 {
   padding-left: 20px;
   padding-right: 20px;
@@ -56,20 +61,14 @@ header {
   text-align: center;
 }
 header nav {
-  padding-top: 20px;
+  padding-top: 10px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  align-content: none;
-  justify-content: space-between;
+  align-content: space-between;
+  justify-content: center;
   align-items: center;
-  gap: 10px;
-  /*display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  gap: 0;*/
+  gap: 150px;
 }
 header nav .nav__logo {
   height: 50px;
@@ -77,12 +76,11 @@ header nav .nav__logo {
 header nav .nav__menu__icon {
   height: 30px;
 }
-header h1 {
-  font-size: 38px;
+header nav p {
+  font-size: 100px;
   font-weight: bold;
-  margin-bottom: 10px;
 }
-header h1 span {
+header nav p span {
   color: #ecb22e;
 }
 header h4 {
@@ -221,6 +219,7 @@ header .header__video {
   background-color: white;
   margin-left: 50px;
   margin-right: 50px;
+  margin-bottom: 20px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -230,20 +229,65 @@ header .header__video {
   gap: 10px;
 }
 .main03 .main03__tarjeta .main03__tarjeta__img {
-  width: 90%;
   padding-top: 10px;
+  width: 95%;
 }
 .main03 .main03__botones {
-  display: block;
-  background-color: red;
-  width: 100px;
-  height: 100px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: flex-center;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.main03 .main03__botones .main03__boton {
+  background-color: rgb(202, 202, 202);
+  color: transparent;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
+  border-color: transparent;
+}
+.main03 .main03__botones .seleccion {
+  background-color: black;
 }
 
 .main04 {
-  background-color: red;
+  background-color: #541554;
   color: white;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  -webkit-clip-path: ellipse(90% 100% at center top);
+          clip-path: ellipse(90% 100% at center top);
+}
+.main04 p {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.main04 .main04__botones__gratis {
+  width: 100%;
+  height: 50px;
+  font-weight: bold;
+  color: #541554;
+  background-color: white;
+}
+.main04 .main04__botones__ventas {
+  width: 100%;
+  height: 50px;
+  font-weight: bold;
+  color: white;
+  background-color: #541554;
+  border-color: white;
+}
+
+footer {
+  padding-bottom: 20px;
+}
+footer .footer__logo {
+  height: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }/*# sourceMappingURL=styles.css.map */

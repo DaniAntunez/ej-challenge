@@ -2,16 +2,10 @@ header {
     background-color: #541554;
     color: white;
     text-align: center;
-
+    
     nav {
-        padding-top: 20px;
-        @include flexWrap(row, none, space-between, center, 10px);
-        /*display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        gap: 0;*/
+        padding-top: 10px;
+        @include flexWrap(row, space-between, center, center, 150px);
 
         .nav__logo {
             height: 50px;
@@ -20,15 +14,14 @@ header {
         .nav__menu__icon {
             height: 30px;
         }
-    }
 
-    h1 {
-        font-size: 38px;
-        font-weight: bold;
-        margin-bottom: 10px;
-
-        span {
-            color: #ecb22e;
+        p {
+            font-size: 100px;
+            font-weight: bold;
+        
+            span {
+                color: #ecb22e;
+            }
         }
     }
 
