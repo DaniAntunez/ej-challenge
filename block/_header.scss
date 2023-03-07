@@ -6,6 +6,9 @@ header {
     nav {
         padding-top: 10px;
         @include flexWrap(row, space-between, center, center, 150px);
+        position: fixed;
+        background-color: #541554;
+
 
         .nav__logo {
             height: 50px;
@@ -14,16 +17,18 @@ header {
         .nav__menu__icon {
             height: 30px;
         }
+    }
 
-        p {
-            font-size: 100px;
-            font-weight: bold;
+    p {
+        font-size: 38px;
+        font-weight: bold;
+        padding-top: 80px;
         
-            span {
-                color: #ecb22e;
-            }
+        span {
+            color: #ecb22e;
         }
     }
+    
 
     h4 {
         font-weight: lighter;
